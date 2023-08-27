@@ -1,0 +1,99 @@
+
+a{
+    text-decoration: none;
+}
+
+.header{
+    flex: 1;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+}
+.header footer{
+    text-align: center;
+    padding: 20px;
+}
+
+
+.header-1{
+    display: flex;
+    margin-bottom: 20px;
+    gap: 10px;
+    flex: 1;
+    justify-content: space-between;
+    
+}
+
+.links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 5px;
+    font-size: larger;
+}
+.links a{
+    font-size: 30px;
+    color: black;
+    padding: 10px;
+    font-weight: bold;
+}
+.links a:hover{
+    color: #eee;
+}
+
+.parlorname{
+    text-align: center;
+}
+.parlorname h1{
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: -15px;
+}
+.logo{
+    width: 200px;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+
+.front{
+    display: flex;
+    height: 500px;
+    background-color: aqua;
+    padding: 10px;
+}
+.front-text{
+    display: flex;
+    flex-direction: column;
+}
+.location{
+    height: 100px;
+    width: 200px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+.location:hover{
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 1);
+    background-color: red;
+}
+
+.second{
+    display: flex;
+    background-color: antiquewhite;
+}
+.image img{
+    max-width: 200px;
+}
+.third{
+    display: flex;
+    background: burlywood;
+    height: 300px;
+}
+.fourth{
+    display: flex;
+    background-color: gold;
+}
